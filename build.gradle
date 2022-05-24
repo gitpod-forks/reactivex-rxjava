@@ -13,7 +13,7 @@ plugins {
 }
 
 ext {
-    reactiveStreamsVersion = "1.0.3"
+    reactiveStreamsVersion = "1.0.4"
     junitVersion = "4.13.2"
     testNgVersion = "7.5"
     mockitoVersion = "4.5.1"
@@ -33,6 +33,9 @@ if (releaseTag != null && !releaseTag.isEmpty()) {
 
 repositories {
     mavenCentral()
+    maven {
+       url "https://oss.sonatype.org/content/groups/staging/"
+    }
 }
 
 dependencies {
