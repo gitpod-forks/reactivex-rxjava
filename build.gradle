@@ -7,7 +7,7 @@ plugins {
     id("ru.vyarus.animalsniffer") version "1.5.4"
     id("me.champeau.gradle.jmh") version "0.5.3"
     id("com.github.hierynomus.license") version "0.16.1"
-    id("biz.aQute.bnd.builder") version "6.2.0"
+    id("biz.aQute.bnd.builder") version "6.3.0"
     id("com.vanniktech.maven.publish") version "0.19.0"
     id("org.beryx.jar") version "1.2.0"
 }
@@ -16,7 +16,7 @@ ext {
     reactiveStreamsVersion = "1.0.4"
     junitVersion = "4.13.2"
     testNgVersion = "7.5"
-    mockitoVersion = "4.6.0"
+    mockitoVersion = "4.6.1"
     jmhLibVersion = "1.21"
     guavaVersion = "31.1-jre"
 }
